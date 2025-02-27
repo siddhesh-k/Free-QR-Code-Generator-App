@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator - Introduction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #007bff, #6610f2);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            width: 80%;
+            max-width: 500px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background: #ff5733;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background: #e64a19;
+        }
+        .animated-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+            animation: bounce 1.5s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <i class="fas fa-qrcode animated-icon"></i>
+         <h1>Welcome to QR Code Generator</h1>
+        <p>
+            This application allows you to generate QR codes easily. You can input a URL or key-value pairs, 
+            and the app will generate a scannable QR code for you. 
+        </p>
+        <p>
+            Features include:
+            <ul>
+                <li>Simple and easy-to-use interface</li>
+                <li>Supports both URLs and key-value inputs</li>
+                <li>Customizable QR code generation</li>
+                <li>Download and save QR codes to your preferred location</li>
+            </ul>
+        </p>
+      <p>Created by Siddhesh Khadapkar</p>
+        <a href="privacy_policy.html" class="btn">Privacy Policy</a>
+    </div>
+</body>
+</html>
